@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Muyah Gaious">
+        <meta name="description" content="this page contains all infomation and serices the 'DE-MAXINE'S' provide">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>registration</title>
+        <link rel="icon" href="/demaxines/IMAGES/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+<body class="bodyR">
+    <header class="headerR">
+        <div class="headerR__div">
+           
+                <ul class="headerR__ul">
+                    <li>
+                        <a href="policy.html">Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="">Team</a>
+                    </li>
+                </ul>
+          
+        </div>
+    </header>
+    <div class="form__container">
+        <h1 class="form__h1">Register</h1>
+        <form action="https://httpbin.org/get" class="form">
+            <p>
+            <label for="text" class="form__label">First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Mbah" autocomplete="on" required autofocus class="form__input">
+        </p>
+        <p>
+            <label for="text" class="form__label">Last Name</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Bless Fru" autocomplete="on" required class="form__input">
+        </p>
+        <p>
+            <label for="text" class="form__label">Email</label>
+            <input type="text" name="lastName" id="email" placeholder="abc@gmail.com" autocomplete="on" required class="form__input">
+        </p>
+        <p>
+            <label for="password" class="form__label">Password</label>
+            <input type="password" name="password" id="password" required class="form__input">
+        </p>
+        <p>
+            <label for="phone" class="form__label">Phone</label>
+            <input type="tell" name="phone" id="phone" placeholder="623-456-789" pattern="+(237)[0-9]{3}[0-9]{3}[0-9]{3}" autocomplete="on" required class="form__input">
+        </p>
+        <p>
+            <label for="decade" class="form__label">Year Of Birth</label>
+            <input type="number" name="yearOfbirth" id="yearOfbirth" min="1900" max="2014"   required class="form__input">  
+        </p>
+        <p>
+            <fieldset class="form__fieldset">
+                <legend>Address</legend>
+                <label for="message" class="form__label">Briefly describe your address</label>
+                <br>
+                <textarea name="message" id="address" cols="30" rows="10" placeholder="eg. 'I leave at Ntarinkon oposite the police station'" class="form__textarea"></textarea>
+            </fieldset>
+            
+        </p>
+        <br><button type="submit" class="form__button">Register</button>
+        </form>
+      
+        <p>
+            <ul>
+                <li>
+                    Already have a account? <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="aside">
+        
+            <aside>
+                
+                    <details>
+                        <summary class="aside__summary">More Help</summary>
+                        <form action="https://httpbin.org/get" >
+                            <p>
+                                <fieldset>
+                                    <legend>Facing issues? send us a message</legend>
+                                    <label for="message"></label>
+                                    <br>
+                                    <textarea name="message" id="address" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                                </fieldset>
+                                
+                            </p>
+                            <br><button type="submit" class="form__button">Send</button>
+                        </form>
+                    </details>
+                
+            </aside>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="footer__div">
+                <ul class="footer__ul">
+                    <li>
+                        <a class="footer__a" href="www.facebook.com">Facebook</a>
+                    </li>
+                    <li>
+                        <a class="footer__a" href="www.instagram.com">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="footer__a" href="www.twitter.com">Twitter</a>
+                    </li>
+                    <li>
+                        <a class="footer__a" href="www.linkedin.com">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a class="footer__a" href="www.whatsapp.com">Whatsapp</a>
+                    </li>
+                    <li>
+                        <a class="footer__a" href="www.telegram.com">Telegram</a>
+                    </li>
+                </ul>
+        </div>
+        <hr>
+        <div class="footer__div">
+            
+                <ul class="footer__ul">
+                    <li>
+                        <a class="footer__a" href="policy.html">Policy</a>
+                    </li>
+
+                    <li>
+                        <a class="footer__a" href="">Team</a>
+                    </li>
+                </ul>
+        
+        </div>
+        
+       <hr>
+        <p>
+            <span class="nowrap">Copyright &copy;</span>
+            <span class="nowrap">De-maxine's</span>
+        </p>
+    </footer>
+</body>
+</html>
